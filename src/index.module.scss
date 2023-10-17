@@ -1,0 +1,48 @@
+:root[data-theme="light"] {
+  --background-color: #fafafa;
+  --text-color: #333; /* Цвет текста для светлой темы */
+}
+
+:root[data-theme="dark"] {
+  --background-color: #2b3e51;
+  --text-color: #fff; /* Цвет текста для темной темы */
+}
+body {
+  background: var(--background-color);
+  color: var(--text-color); 
+}
+@font-face {
+  font-family: "Lato";
+  src: url('../public/Lato/Lato-Regular.ttf')format('latoregular'),
+       url('../public/Lato/Lato-LightItalic.ttf') format('latoitalic');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Lato', Arial, sans-serif;
+}
+.text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   bottom: 10px;
+   transform: translate(-50%, -50%);
+   font-family: 'Lato';
+   font-style: italic;
+   font-size: 70px;
+   margin: 0 auto;
+}
+   
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lato';
+  font-style: italic;
+  font-size: 50px;
+  margin: 0 auto;
+  bottom:350px;
+  text-align: center;
+}
+
